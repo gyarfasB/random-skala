@@ -1,2 +1,3 @@
 # random-skala
-azt mondták, hogy még nincs ilyen, így készítettem egyet
+Azt mondták, hogy még nincs ilyen, ami pedig van az elavult. Így hát készítettem egyet.
+[Itt](https://gyarfasb.github.io/random-skala/) található.
