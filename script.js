@@ -1,6 +1,10 @@
         const hangnemek = ['C', 'Cisz', 'Desz', 'D', 'Disz', 'Esz', 'E', 'F', 'Fisz', 'Gesz', 'G', 'Gisz', 'Asz', 'A', 'B', 'H'];
         const jellegek = ['dúr', 'moll'];
         const mollJellegek = ['természetes', 'összhangzatos', 'melodikus'];
+        const modalisSkala = ['dór','ion','fríg','líd','mixolíd','eol','lokriszi']
+
+        document.getElementById("outputButton").style.fontFamily = "Open Sans,sans-serif";
+        document.getElementById("outputButton2").style.fontFamily = "Open Sans,sans-serif";
 
         function generateHangnem() {
             const hangnem = hangnemek[Math.floor(Math.random() * hangnemek.length)];
@@ -16,4 +20,13 @@
             }
 
             document.getElementById('outputButton').innerText = outputText;
+        }
+
+        function generateModal() {
+            const modal = modalisSkala[Math.floor(Math.random() * modalisSkala.length)];
+            let outputText2 = '';
+            outputText2 = `${modal}`;
+               
+            
+            document.getElementById('outputButton2').innerText = outputText2;    
         }

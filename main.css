@@ -1,6 +1,5 @@
         body {
-            font-family: Monospace;
-            font-size: 120%;
+            font-family: "Afacad Flux", sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -8,12 +7,40 @@
             background-color: #f0f0f0;
         }
 
-        button {
+        #outputButton {
             width: 200px;
             height: 200px;
-            font-size: 1.4em;
+            font-size: 1.6em;
             cursor: pointer;
             background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            -webkit-box-shadow: 5px 5px 10px 7px rgba(69,69,69,0.45);
+            -moz-box-shadow: 5px 5px 10px 7px rgba(69,69,69,0.45);
+            box-shadow: 5px 5px 10px 7px rgba(69,69,69,0.45);
+        }
+
+        #outputButton:hover {
+            background-color: #45a049;
+            transform: scale(1.05); 
+        }
+
+        #outputButton2 {
+            width: 120px;
+            height: 120px;
+            margin-left: 1em;
+            margin-top: 5em;
+            font-size: 1.5em;
+            cursor: pointer;
+            background-color: #339ee5;
             color: white;
             border: none;
             border-radius: 50%;
@@ -28,12 +55,18 @@
 -moz-box-shadow: 5px 5px 10px 7px rgba(69,69,69,0.45);
 box-shadow: 5px 5px 10px 7px rgba(69,69,69,0.45);
         }
-
-        button:hover {
-            background-color: #45a049;
+        #outputButton2:hover {
+            background-color: #2f92d4;
             transform: scale(1.05); 
         }
-
         button:active {
             transform: scale(0.98);
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100vw;
+            background-color: rgb(214, 214, 214);
+            color:rgb(108, 108, 108)
         }
