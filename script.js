@@ -5,7 +5,7 @@
 
         document.getElementById("outputButton").style.fontFamily = "Open Sans,sans-serif";
         document.getElementById("outputButton2").style.fontFamily = "Open Sans,sans-serif";
-
+        /* dur-moll gomb */
         function generateHangnem() {
             const hangnem = hangnemek[Math.floor(Math.random() * hangnemek.length)];
             const jelleg = jellegek[Math.floor(Math.random() * jellegek.length)];
@@ -21,7 +21,7 @@
 
             document.getElementById('outputButton').innerText = outputText;
         }
-
+        /* modalis gomb */
         function generateModal() {
             const modal = modalisSkala[Math.floor(Math.random() * modalisSkala.length)];
             let outputText2 = '';
